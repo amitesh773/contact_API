@@ -16,7 +16,7 @@ app.use('/hi',(req, res, next)=>{
 })
 */
 //Sachin Dhuriya
-/*
+
 const loginChecker = (req, res, next) => {
     if(req.body.num>10){
         return res.status(400).json({message: 'Bhai login nhi hai tumhara'})
@@ -24,7 +24,7 @@ const loginChecker = (req, res, next) => {
     console.log("Bhai login check kr rha hoon...")
     next();
 }
-*/
+
 
 const checkLogin = require('./middleware/loginchecker')
 databaseconnection().then(() => { console.log("Database connected....") })

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { type } = require('os');
 
-
+//My name is Sachin
 const userSchema = new mongoose.Schema({
     name: {
         type : String
